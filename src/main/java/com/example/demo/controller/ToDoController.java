@@ -14,7 +14,7 @@ import com.example.demo.repository.TaskRepository;
 import java.util.List;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://reactinterface-production.up.railway.app")
 @RestController
 public class ToDoController {
 
