@@ -122,11 +122,11 @@ That means the application uses the `mysql` profile by default unless `SPRING_PR
 The MySQL profile uses environment variables, with defaults configured in `application-mysql.properties`:
 
 ```properties
-MYSQLHOST=mysql.railway.internal
-MYSQLPORT=3306
-MYSQLDATABASE=railway
-MYSQLUSER=root
-MYSQLPASSWORD=
+MYSQLHOST
+MYSQLPORT
+MYSQLDATABASE
+MYSQLUSER
+MYSQLPASSWORD
 ```
 
 Run with MySQL:
